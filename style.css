@@ -1,135 +1,169 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .site-title {
-    position: absolute;
-    left: 20px;
-    font-size: 24px;
+  position: absolute;
+  left: 20px;
+  font-size: 24px;
 }
 
 header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
 }
 
 nav li {
-    font-size: 18px;
-    margin-right: 30px;
+  font-size: 18px;
+  margin-right: 30px;
 }
 
 header {
-    background-color: #7fcd91;
-    height: 50px;
+  background-color: #7fcd91;
+  height: 50px;
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 nav li {
-    display: inline-block;
-    margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
 }
 
 section {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 h1, h2 {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 table th, table td {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
 }
 
 table th {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 footer {
-    background-color: #eee;
-    padding: 20px;
-    text-align: center;
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
 }
 
 footer a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 body {
-    background-size: cover;
-    background-position: center center;
-  }
-  .auth-form {
-    width: 400px;
-    margin: 100px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  }
-  .form-row {
-    margin-bottom: 10px;
-  }
-  label {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  input {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 100%;
-  }
-  input[type="checkbox"] {
-    display: inline-block;
-    width: auto;
-    margin-right: 5px;
-    vertical-align: middle;
-  }
-  button {
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  button:hover {
-    background-color: #3e8e41;
-  }
-  .error {
-    color: red;
-    font-size: 14px;
-    margin-top: 5px;
-  }
+  background-size: cover;
+  background-position: center center;
+}
+.auth-form {
+  width: 400px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.form-row {
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3e8e41;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+p {
+  text-align: center;
+}
+
+#message {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+
+
